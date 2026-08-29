@@ -12,25 +12,23 @@ This repository contains the replication package, literature corpus, and methodo
 
 ## 📁 Repository Structure
 
-```text
-├── papers/                                                   # Full-text PDFs of the 14 primary and foundational studies
-│   ├── 2884781.2884818.pdf                                   # Villarroel et al. (CLAP, ICSE 2016)
-│   ├── 335191.335372.pdf                                     # Han et al. (FP-growth, SIGMOD 2000)
-│   ├── Analyzing_Classifying_and_Interpreting_Emotions...    # Williams & Mahmoud (SEmotion 2017)
-│   ├── Bug_report_feature_request_or_simply_praise...        # Maalej & Nabil (RE 2015)
-│   ├── CMAR_accurate_and_efficient_classification...         # Li et al. (CMAR, ICDM 2001)
-│   ├── How_Do_Users_Like_This_Feature...                     # Guzman & Maalej (RE 2014)
-│   ├── How_can_i_improve_my_app_Classifying_user_reviews...   # Panichella et al. (ICSME 2015)
-│   ├── KDD98-012.pdf                                         # Liu et al. (CBA, KDD 1998)
-│   ├── Mining_Twitter_Data_for_a_More_Responsive...          # Williams & Mahmoud (ICSE-C 2017)
-│   ├── On_the_Emotion_of_Users_in_App_Reviews.pdf            # Martens & Johann (SEmotion 2017)
-│   ├── User_reviews_matter_Tracking_crowdsourced_reviews...  # Palomba et al. (CRISTAL, ICSME 2015)
-│   ├── _TOSEM__GV__Ethical_Concern_in_Video_Games...         # Voria et al. (TOSEM 2025)
-│   ├── s10664-019-09706-9.pdf                                # Martens & Maalej (EMSE 2019)
-│   └── s11219-020-09529-8.pdf                                # Al-Hawari et al. (SQJ 2021)
-├── LICENSE                                                   # MIT License file
-└── README.md                                                 # Replication instructions and documentation
-```
+    ├── papers/                                                   # Full-text PDFs of the 14 primary and foundational studies
+    │   ├── 2884781.2884818.pdf                                   # Villarroel et al. (CLAP, ICSE 2016)
+    │   ├── 335191.335372.pdf                                     # Han et al. (FP-growth, SIGMOD 2000)
+    │   ├── Analyzing_Classifying_and_Interpreting_Emotions...    # Williams & Mahmoud (SEmotion 2017)
+    │   ├── Bug_report_feature_request_or_simply_praise...        # Maalej & Nabil (RE 2015)
+    │   ├── CMAR_accurate_and_efficient_classification...         # Li et al. (CMAR, ICDM 2001)
+    │   ├── How_Do_Users_Like_This_Feature...                     # Guzman & Maalej (RE 2014)
+    │   ├── How_can_i_improve_my_app_Classifying_user_reviews...   # Panichella et al. (ICSME 2015)
+    │   ├── KDD98-012.pdf                                         # Liu et al. (CBA, KDD 1998)
+    │   ├── Mining_Twitter_Data_for_a_More_Responsive...          # Williams & Mahmoud (ICSE-C 2017)
+    │   ├── On_the_Emotion_of_Users_in_App_Reviews.pdf            # Martens & Johann (SEmotion 2017)
+    │   ├── User_reviews_matter_Tracking_crowdsourced_reviews...  # Palomba et al. (CRISTAL, ICSME 2015)
+    │   ├── _TOSEM__GV__Ethical_Concern_in_Video_Games...         # Voria et al. (TOSEM 2025)
+    │   ├── s10664-019-09706-9.pdf                                # Martens & Maalej (EMSE 2019)
+    │   └── s11219-020-09529-8.pdf                                # Al-Hawari et al. (SQJ 2021)
+    ├── LICENSE                                                   # MIT License file
+    └── README.md                                                 # Replication instructions and documentation
 
 ---
 
@@ -55,28 +53,27 @@ This repository contains the replication package, literature corpus, and methodo
 
 ## 🔍 Search Strategy & Selection Protocol
 
-The systematic literature identification was executed across digital libraries using the combined boolean query[cite: 10]:
+The systematic literature identification was executed across digital libraries using the combined boolean query:
 
-("app reviews" OR "user feedback" OR "tweets" OR "game reviews" OR "fake reviews")
-AND
-("software maintenance" OR "natural language processing" OR "associative classification" OR "feature selection" OR "traceability" OR "release planning" OR "ethics" OR "sentiment analysis")
-
+    ("app reviews" OR "user feedback" OR "tweets" OR "game reviews" OR "fake reviews") 
+    AND 
+    ("software maintenance" OR "natural language processing" OR "associative classification" OR "feature selection" OR "traceability" OR "release planning" OR "ethics" OR "sentiment analysis")
 
 ### Identification & Screening Flow
-* **Initial Records Retrieved:** 1,197 (IEEE Xplore: 412, ACM DL: 385, SpringerLink/ScienceDirect: 260, Gray Literature & Snowballing: 140)[cite: 10]
-* **Duplicates Removed:** 307 (890 unique records retained)[cite: 10]
-* **Title/Abstract Screening:** 75 candidate studies selected[cite: 10]
-* **Full-Text Eligibility Assessment:** 32 studies examined[cite: 10]
-* **Final Primary Selection:** 14 primary studies and methodological foundations[cite: 10]
+* **Initial Records Retrieved:** 1,197 (IEEE Xplore: 412, ACM DL: 385, SpringerLink/ScienceDirect: 260, Gray Literature & Snowballing: 140)
+* **Duplicates Removed:** 307 (890 unique records retained)
+* **Title/Abstract Screening:** 75 candidate studies selected
+* **Full-Text Eligibility Assessment:** 32 studies examined
+* **Final Primary Selection:** 14 primary studies and methodological foundations
 
 ---
 
 ## 🎯 Research Questions Addressed
 
-* **RQ1 (Multimodal Classification & NLP):** Impact of integrating NLP syntactic patterns, text analysis (TA), and sentiment analysis (SA) compared to single-technique baselines[cite: 10].
-* **RQ2 (Associative Classification & Feature Selection):** Performance, rule interpretability (CARs), and compression efficiency of associative algorithms (ACRM, CBA, CBA2, CMAR, CPAR) and feature selection methods (Information Gain, Chi-Square)[cite: 10].
-* **RQ3 (Traceability, Release Planning & Data Integrity):** Linking user feedback to source code changes (CRISTAL)[cite: 4, 10], clustering and release prioritization (CLAP)[cite: 3, 10], and detecting incentivized/fake reviews[cite: 5, 10].
-* **RQ4 (Ethics, Emotions & Domain Engineering):** Categorization of ethical concerns across software lifecycles and temporal tracking of emotional dynamics in user feedback (VGSE & App Stores)[cite: 10].
+* **RQ1 (Multimodal Classification & NLP):** Impact of integrating NLP syntactic patterns, text analysis (TA), and sentiment analysis (SA) compared to single-technique baselines.
+* **RQ2 (Associative Classification & Feature Selection):** Performance, rule interpretability (CARs), and compression efficiency of associative algorithms (ACRM, CBA, CBA2, CMAR, CPAR) and feature selection methods (Information Gain, Chi-Square).
+* **RQ3 (Traceability, Release Planning & Data Integrity):** Linking user feedback to source code changes (CRISTAL), clustering and release prioritization (CLAP), and detecting incentivized/fake reviews.
+* **RQ4 (Ethics, Emotions & Domain Engineering):** Categorization of ethical concerns across software lifecycles and temporal tracking of emotional dynamics in user feedback (VGSE & App Stores).
 
 ---
 
