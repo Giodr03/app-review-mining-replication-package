@@ -36,20 +36,20 @@ This repository contains the replication package, literature corpus, and methodo
 
 ## 📚 Primary Papers Included (`/papers`)
 
-1. **Panichella et al. (2015)** – *How Can I Improve My App? Classifying User Reviews for Software Maintenance and Evolution* (ICSME 2015)[cite: 1, 10]
-2. **Al-Hawari et al. (2021)** – *Classification of Application Reviews into Software Maintenance Tasks Using Data Mining Techniques* (SQJ 2021)[cite: 10]
-3. **Williams & Mahmoud (2017)** – *Mining Twitter Data for a More Responsive Software Engineering Process* (ICSE-C 2017)[cite: 10]
-4. **Maalej & Nabil (2015)** – *Bug Report, Feature Request, or Simply Praise? On Automatically Classifying App Reviews* (RE 2015)[cite: 10]
-5. **Guzman & Maalej (2014)** – *How Do Users Like This Feature? A Fine Grained Sentiment Analysis of App Reviews* (RE 2014)[cite: 10]
-6. **Martens & Johann (2017)** – *On the Emotion of Users in App Reviews* (SEmotion 2017)[cite: 10]
-7. **Williams & Mahmoud (2017)** – *Analyzing, Classifying, and Interpreting Emotions in Software Users' Tweets* (SEmotion 2017)[cite: 10]
-8. **Voria et al. (2025)** – *Ethical Issues in Video Games: A Large-Scale Empirical Analysis of Gamers' Reviews* (TOSEM 2025)[cite: 10]
-9. **Palomba et al. (2015)** – *User Reviews Matter! Tracking Crowdsourced Reviews to Support Evolution of Successful Apps* (CRISTAL, ICSME 2015)[cite: 4, 10]
-10. **Villarroel et al. (2016)** – *Release Planning of Mobile Apps Based on User Reviews* (CLAP, ICSE 2016)[cite: 3, 10]
-11. **Martens & Maalej (2019)** – *Towards Understanding and Detecting Fake Reviews in App Stores* (EMSE 2019)[cite: 5, 10]
-12. **Liu et al. (1998)** – *Integrating Classification and Association Rule Mining* (CBA, KDD 1998)[cite: 10]
-13. **Han et al. (2000)** – *Mining Frequent Patterns Without Candidate Generation* (FP-growth, SIGMOD 2000)[cite: 10]
-14. **Li et al. (2001)** – *CMAR: Accurate and Efficient Classification Based on Multiple Class-Association Rules* (ICDM 2001)[cite: 10]
+1. **Panichella et al. (2015)** – *How Can I Improve My App? Classifying User Reviews for Software Maintenance and Evolution* (ICSME 2015)
+2. **Al-Hawari et al. (2021)** – *Classification of Application Reviews into Software Maintenance Tasks Using Data Mining Techniques* (SQJ 2021)
+3. **Williams & Mahmoud (2017)** – *Mining Twitter Data for a More Responsive Software Engineering Process* (ICSE-C 2017)
+4. **Maalej & Nabil (2015)** – *Bug Report, Feature Request, or Simply Praise? On Automatically Classifying App Reviews* (RE 2015)
+5. **Guzman & Maalej (2014)** – *How Do Users Like This Feature? A Fine Grained Sentiment Analysis of App Reviews* (RE 2014)
+6. **Martens & Johann (2017)** – *On the Emotion of Users in App Reviews* (SEmotion 2017)
+7. **Williams & Mahmoud (2017)** – *Analyzing, Classifying, and Interpreting Emotions in Software Users' Tweets* (SEmotion 2017)
+8. **Voria et al. (2025)** – *Ethical Issues in Video Games: A Large-Scale Empirical Analysis of Gamers' Reviews* (TOSEM 2025)
+9. **Palomba et al. (2015)** – *User Reviews Matter! Tracking Crowdsourced Reviews to Support Evolution of Successful Apps* (CRISTAL, ICSME 2015)
+10. **Villarroel et al. (2016)** – *Release Planning of Mobile Apps Based on User Reviews* (CLAP, ICSE 2016)
+11. **Martens & Maalej (2019)** – *Towards Understanding and Detecting Fake Reviews in App Stores* (EMSE 2019)
+12. **Liu et al. (1998)** – *Integrating Classification and Association Rule Mining* (CBA, KDD 1998)
+13. **Han et al. (2000)** – *Mining Frequent Patterns Without Candidate Generation* (FP-growth, SIGMOD 2000)
+14. **Li et al. (2001)** – *CMAR: Accurate and Efficient Classification Based on Multiple Class-Association Rules* (ICDM 2001)
 
 ---
 
@@ -82,13 +82,13 @@ AND
 
 ## 📊 Benchmark Datasets Referenced
 
-* **Pan Dataset:** 1,390 review sentences labeled into 4 maintenance intentions[cite: 10].
-* **Maalej Dataset:** 3,691 / 4,400 app reviews classified into 4 stakeholder-oriented categories[cite: 10].
-* **Twitter Corpora:** 51,792 technical tweets and 360,873 emotion-annotated tweets[cite: 10].
-* **CRISTAL Open-Source Benchmark:** 100 open-source Android applications mapped to commit and issue logs[cite: 4, 10].
-* **CLAP Dataset:** 1,000 classification reviews, 200 clustered reviews, and 463 prioritized reviews across 200+ mobile apps[cite: 3, 10].
-* **Apple App Store Fake Reviews Benchmark:** 60,000 fake reviews contrasted against 62.6M official store reviews[cite: 5, 10].
-* **Steam VGSE & Longitudinal Corpus:** 326,440 Steam game reviews mapped to 19 ethical dimensions and 7.37M longitudinal App Store reviews[cite: 10].
+* **Pan Dataset:** 1,390 review sentences across 7 mobile applications labeled into 4 maintenance intentions (Problem Discovery, Information Giving, Information Seeking, Feature Request).
+* **Maalej Dataset:** 3,691 labeled reviews (evaluated by Al-Hawari et al.) and the 4,400 ground-truth set (Maalej & Nabil) classified into 4 stakeholder categories (Bug Report, Feature Request, User Experience, Rating).
+* **Twitter Corpora:** 51,792 technical tweets (1,200 manually annotated) and 360,873 emotion-annotated tweets (1,000 sampled for validation).
+* **CRISTAL Open-Source Benchmark:** 100 open-source Android applications mapped to consecutive releases, commits, and issue logs.
+* **CLAP Dataset:** 1,000 classification reviews from 200 apps, 200 clustered reviews from 5 apps, and 463 prioritized reviews from 5 apps.
+* **Apple App Store Fake Reviews Benchmark:** 60,000 incentivized reviews contrasted against 62.6M official store reviews.
+* **Steam VGSE & Longitudinal Corpus:** 326,440 Steam game reviews across 24,701 games mapped to 19 ethical dimensions, alongside 7.37M longitudinal App Store reviews.
 
 ---
 
