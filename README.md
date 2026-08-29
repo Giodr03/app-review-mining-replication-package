@@ -12,23 +12,25 @@ This repository contains the replication package, literature corpus, and methodo
 
 ## 📁 Repository Structure
 
-    ├── papers/                                                   # Full-text PDFs of the 14 primary and foundational studies
-    │   ├── 2884781.2884818.pdf                                   # Villarroel et al. (CLAP, ICSE 2016)
-    │   ├── 335191.335372.pdf                                     # Han et al. (FP-growth, SIGMOD 2000)
-    │   ├── Analyzing_Classifying_and_Interpreting_Emotions...    # Williams & Mahmoud (SEmotion 2017)
-    │   ├── Bug_report_feature_request_or_simply_praise...        # Maalej & Nabil (RE 2015)
-    │   ├── CMAR_accurate_and_efficient_classification...         # Li et al. (CMAR, ICDM 2001)
-    │   ├── How_Do_Users_Like_This_Feature...                     # Guzman & Maalej (RE 2014)
-    │   ├── How_can_i_improve_my_app_Classifying_user_reviews...   # Panichella et al. (ICSME 2015)
-    │   ├── KDD98-012.pdf                                         # Liu et al. (CBA, KDD 1998)
-    │   ├── Mining_Twitter_Data_for_a_More_Responsive...          # Williams & Mahmoud (ICSE-C 2017)
-    │   ├── On_the_Emotion_of_Users_in_App_Reviews.pdf            # Martens & Johann (SEmotion 2017)
-    │   ├── User_reviews_matter_Tracking_crowdsourced_reviews...  # Palomba et al. (CRISTAL, ICSME 2015)
-    │   ├── _TOSEM__GV__Ethical_Concern_in_Video_Games...         # Voria et al. (TOSEM 2025)
-    │   ├── s10664-019-09706-9.pdf                                # Martens & Maalej (EMSE 2019)
-    │   └── s11219-020-09529-8.pdf                                # Al-Hawari et al. (SQJ 2021)
-    ├── LICENSE                                                   # MIT License file
-    └── README.md                                                 # Replication instructions and documentation
+```text
+├── papers/                                                   # Full-text PDFs of the 14 primary and foundational studies
+│   ├── 2884781.2884818.pdf                                   # Villarroel et al. (CLAP, ICSE 2016)
+│   ├── 335191.335372.pdf                                     # Han et al. (FP-growth, SIGMOD 2000)
+│   ├── Analyzing_Classifying_and_Interpreting_Emotions...    # Williams & Mahmoud (SEmotion 2017)
+│   ├── Bug_report_feature_request_or_simply_praise...        # Maalej & Nabil (RE 2015)
+│   ├── CMAR_accurate_and_efficient_classification...         # Li et al. (CMAR, ICDM 2001)
+│   ├── How_Do_Users_Like_This_Feature...                     # Guzman & Maalej (RE 2014)
+│   ├── How_can_i_improve_my_app_Classifying_user_reviews...   # Panichella et al. (ICSME 2015)
+│   ├── KDD98-012.pdf                                         # Liu et al. (CBA, KDD 1998)
+│   ├── Mining_Twitter_Data_for_a_More_Responsive...          # Williams & Mahmoud (ICSE-C 2017)
+│   ├── On_the_Emotion_of_Users_in_App_Reviews.pdf            # Martens & Johann (SEmotion 2017)
+│   ├── User_reviews_matter_Tracking_crowdsourced_reviews...  # Palomba et al. (CRISTAL, ICSME 2015)
+│   ├── _TOSEM__GV__Ethical_Concern_in_Video_Games...         # Voria et al. (TOSEM 2025)
+│   ├── s10664-019-09706-9.pdf                                # Martens & Maalej (EMSE 2019)
+│   └── s11219-020-09529-8.pdf                                # Al-Hawari et al. (SQJ 2021)
+├── LICENSE                                                   # MIT License file
+└── README.md                                                 # Replication instructions and documentation
+```
 
 ---
 
@@ -55,9 +57,11 @@ This repository contains the replication package, literature corpus, and methodo
 
 The systematic literature identification was executed across digital libraries using the combined boolean query:
 
-    ("app reviews" OR "user feedback" OR "tweets" OR "game reviews" OR "fake reviews") 
-    AND 
-    ("software maintenance" OR "natural language processing" OR "associative classification" OR "feature selection" OR "traceability" OR "release planning" OR "ethics" OR "sentiment analysis")
+```text
+("app reviews" OR "user feedback" OR "tweets" OR "game reviews" OR "fake reviews") 
+AND 
+("software maintenance" OR "natural language processing" OR "associative classification" OR "feature selection" OR "traceability" OR "release planning" OR "ethics" OR "sentiment analysis")
+```
 
 ### Identification & Screening Flow
 * **Initial Records Retrieved:** 1,197 (IEEE Xplore: 412, ACM DL: 385, SpringerLink/ScienceDirect: 260, Gray Literature & Snowballing: 140)
